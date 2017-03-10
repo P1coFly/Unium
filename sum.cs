@@ -18,7 +18,14 @@ namespace WindowsFormsApplication1
 
         private void button2_Click(object sender, EventArgs e)
         {
-            int a;
-        }
+            int a,n;
+            a = Convert.ToInt32(textBox2.Text);
+            n = a;
+            if (n < 0)
+            {
+                n = n + 2;
+            }
+            
+        } 
     }
 }
